@@ -5,11 +5,11 @@ myeloma_data <- read.table("start_data/GDS531_after_anova.csv",
 
 
 rand_seed <- 1030
-set.seed(rand_seed)
-max_tree <- 116
+max_tree <- 1000
 minority_nrow <- nrow(myeloma_data[myeloma_data$state == "WO",])
 nr <- nrow(myeloma_data)
-for (j in max_tree) {
+for (j in 117:max_tree) {
+  set.seed(rand_seed)
   random_forest_predictions <- list()
   for (i in  1:nr) {
     # remove subject to validate

@@ -1,0 +1,26 @@
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  W WO
+        W  87 12
+        WO 50 24
+                                         
+               Accuracy : 0.6416         
+                 95% CI : (0.5653, 0.713)
+    No Information Rate : 0.7919         
+    P-Value [Acc > NIR] : 1              
+                                         
+                  Kappa : 0.2172         
+ Mcnemar's Test P-Value : 2.614e-06      
+                                         
+            Sensitivity : 0.6350         
+            Specificity : 0.6667         
+         Pos Pred Value : 0.8788         
+         Neg Pred Value : 0.3243         
+             Prevalence : 0.7919         
+         Detection Rate : 0.5029         
+   Detection Prevalence : 0.5723         
+      Balanced Accuracy : 0.6509         
+                                         
+       'Positive' Class : W              
+                                         
